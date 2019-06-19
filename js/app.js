@@ -57,7 +57,7 @@ console.log(48 == '48');
 
 //I'm not sure if this will run infinitely or not, because there will be an error.
 //attempt to redefine a constant.
-const runProgram = true;
+let runProgram = true;
 
 while (runProgram) {
 	console.log('Do not run this loop');
@@ -101,7 +101,7 @@ for (let i = 0; i < 1000; ++i) {
 //increment i by 1 every time the loop runs.
 
 //4.
-for (let i = 999; i >= 0; --i) {
+for (let i = 999; i >= 0; i--) {
   console.log(i);
 }
 
